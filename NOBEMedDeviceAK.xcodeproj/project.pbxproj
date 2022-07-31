@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20EF10DBD4D6DE563CFF377F /* ContainerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2BCF2D844DC570762877CD /* ContainerData.swift */; };
+		3068ED19177B9FF9D4B9AD2B /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 41F13338A0B00FA5FE3DE733 /* amplifyconfiguration.json */; };
+		30C7262026FF52734A598A39 /* ContainerData+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD549CC2434017FEB9CD924 /* ContainerData+Schema.swift */; };
+		515DA6302894F9B60089D234 /* amplify/generated/models/AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515DA62D2894F9B60089D234 /* amplify/generated/models/AmplifyModels.swift */; };
+		515DA6312894F9B60089D234 /* amplify/generated/models/ContainerData+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515DA62E2894F9B60089D234 /* amplify/generated/models/ContainerData+Schema.swift */; };
+		515DA6322894F9B60089D234 /* amplify/generated/models/ContainerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515DA62F2894F9B60089D234 /* amplify/generated/models/ContainerData.swift */; };
+		5187D0252894EC890019AF18 /* NOBEMedDeviceAKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5187D0242894EC890019AF18 /* NOBEMedDeviceAKApp.swift */; };
+		5187D0272894EC890019AF18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5187D0262894EC890019AF18 /* ContentView.swift */; };
+		5187D0292894EC8B0019AF18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5187D0282894EC8B0019AF18 /* Assets.xcassets */; };
+		5187D02C2894EC8B0019AF18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5187D02B2894EC8B0019AF18 /* Preview Assets.xcassets */; };
+		51954F482894EF7400AE463E /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51954F472894EF7400AE463E /* Backend.swift */; };
+		726369DFA5E2D74C4D5CAD23 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = C742063885737AB1BCD78967 /* awsconfiguration.json */; };
+		8B29C039E2368FE68F60B925 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456A1F55EEFCEAE1B96EF2D6 /* AmplifyModels.swift */; };
+		9509170C84B85A9A8B9BA6F2 /* Pods_NOBEMedDeviceAK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D67B32BE5F9FA49B08AD4D /* Pods_NOBEMedDeviceAK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1030930A456CBBBEAB5B5936 /* Pods-NOBEMedDeviceAK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOBEMedDeviceAK.release.xcconfig"; path = "Target Support Files/Pods-NOBEMedDeviceAK/Pods-NOBEMedDeviceAK.release.xcconfig"; sourceTree = "<group>"; };
+		25D67B32BE5F9FA49B08AD4D /* Pods_NOBEMedDeviceAK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NOBEMedDeviceAK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F13338A0B00FA5FE3DE733 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		456A1F55EEFCEAE1B96EF2D6 /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		515DA62D2894F9B60089D234 /* amplify/generated/models/AmplifyModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		515DA62E2894F9B60089D234 /* amplify/generated/models/ContainerData+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "amplify/generated/models/ContainerData+Schema.swift"; sourceTree = "<group>"; };
+		515DA62F2894F9B60089D234 /* amplify/generated/models/ContainerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = amplify/generated/models/ContainerData.swift; sourceTree = "<group>"; };
+		515DA6332895A0270089D234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5187D0212894EC890019AF18 /* NOBEMedDeviceAK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NOBEMedDeviceAK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5187D0242894EC890019AF18 /* NOBEMedDeviceAKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOBEMedDeviceAKApp.swift; sourceTree = "<group>"; };
+		5187D0262894EC890019AF18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5187D0282894EC8B0019AF18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5187D02B2894EC8B0019AF18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51954F472894EF7400AE463E /* Backend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backend.swift; sourceTree = "<group>"; };
+		52D8A8AB0AFD057C4137E51B /* Pods-NOBEMedDeviceAK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOBEMedDeviceAK.debug.xcconfig"; path = "Target Support Files/Pods-NOBEMedDeviceAK/Pods-NOBEMedDeviceAK.debug.xcconfig"; sourceTree = "<group>"; };
+		8AD549CC2434017FEB9CD924 /* ContainerData+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "ContainerData+Schema.swift"; path = "amplify/generated/models/ContainerData+Schema.swift"; sourceTree = "<group>"; };
+		C742063885737AB1BCD78967 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		FD2BCF2D844DC570762877CD /* ContainerData.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = ContainerData.swift; path = amplify/generated/models/ContainerData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5187D01E2894EC890019AF18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9509170C84B85A9A8B9BA6F2 /* Pods_NOBEMedDeviceAK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05B3AD399C42F579182B109E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25D67B32BE5F9FA49B08AD4D /* Pods_NOBEMedDeviceAK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33699D28BBF5A054DBC58A84 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				C742063885737AB1BCD78967 /* awsconfiguration.json */,
+				41F13338A0B00FA5FE3DE733 /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
+		515DA62B2894F9B60089D234 /* generated */ = {
+			isa = PBXGroup;
+			children = (
+				515DA62C2894F9B60089D234 /* models */,
+			);
+			name = generated;
+			path = amplify/generated;
+			sourceTree = SOURCE_ROOT;
+		};
+		515DA62C2894F9B60089D234 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				515DA62D2894F9B60089D234 /* amplify/generated/models/AmplifyModels.swift */,
+				515DA62E2894F9B60089D234 /* amplify/generated/models/ContainerData+Schema.swift */,
+				515DA62F2894F9B60089D234 /* amplify/generated/models/ContainerData.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		5187D0182894EC890019AF18 = {
+			isa = PBXGroup;
+			children = (
+				5187D0232894EC890019AF18 /* NOBEMedDeviceAK */,
+				5187D0222894EC890019AF18 /* Products */,
+				33699D28BBF5A054DBC58A84 /* AmplifyConfig */,
+				DB0DA72789E53F61B277B208 /* Pods */,
+				05B3AD399C42F579182B109E /* Frameworks */,
+				B8A5A00AD8EF7CFC1AC45FBE /* AmplifyModels */,
+			);
+			sourceTree = "<group>";
+		};
+		5187D0222894EC890019AF18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5187D0212894EC890019AF18 /* NOBEMedDeviceAK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5187D0232894EC890019AF18 /* NOBEMedDeviceAK */ = {
+			isa = PBXGroup;
+			children = (
+				515DA6332895A0270089D234 /* Info.plist */,
+				515DA62B2894F9B60089D234 /* generated */,
+				5187D0242894EC890019AF18 /* NOBEMedDeviceAKApp.swift */,
+				5187D0262894EC890019AF18 /* ContentView.swift */,
+				5187D0282894EC8B0019AF18 /* Assets.xcassets */,
+				5187D02A2894EC8B0019AF18 /* Preview Content */,
+				51954F472894EF7400AE463E /* Backend.swift */,
+			);
+			path = NOBEMedDeviceAK;
+			sourceTree = "<group>";
+		};
+		5187D02A2894EC8B0019AF18 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5187D02B2894EC8B0019AF18 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B8A5A00AD8EF7CFC1AC45FBE /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				456A1F55EEFCEAE1B96EF2D6 /* AmplifyModels.swift */,
+				8AD549CC2434017FEB9CD924 /* ContainerData+Schema.swift */,
+				FD2BCF2D844DC570762877CD /* ContainerData.swift */,
+				515DA62D2894F9B60089D234 /* amplify/generated/models/AmplifyModels.swift */,
+				515DA62E2894F9B60089D234 /* amplify/generated/models/ContainerData+Schema.swift */,
+				515DA62F2894F9B60089D234 /* amplify/generated/models/ContainerData.swift */,
+			);
+			name = AmplifyModels;
+			sourceTree = "<group>";
+		};
+		DB0DA72789E53F61B277B208 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52D8A8AB0AFD057C4137E51B /* Pods-NOBEMedDeviceAK.debug.xcconfig */,
+				1030930A456CBBBEAB5B5936 /* Pods-NOBEMedDeviceAK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5187D0202894EC890019AF18 /* NOBEMedDeviceAK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5187D02F2894EC8B0019AF18 /* Build configuration list for PBXNativeTarget "NOBEMedDeviceAK" */;
+			buildPhases = (
+				92106047B5C85115296BCBB2 /* [CP] Check Pods Manifest.lock */,
+				5187D01D2894EC890019AF18 /* Sources */,
+				5187D01E2894EC890019AF18 /* Frameworks */,
+				5187D01F2894EC890019AF18 /* Resources */,
+				F50C04C7757A1441410C538E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NOBEMedDeviceAK;
+			productName = NOBEMedDeviceAK;
+			productReference = 5187D0212894EC890019AF18 /* NOBEMedDeviceAK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5187D0192894EC890019AF18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					5187D0202894EC890019AF18 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5187D01C2894EC890019AF18 /* Build configuration list for PBXProject "NOBEMedDeviceAK" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5187D0182894EC890019AF18;
+			productRefGroup = 5187D0222894EC890019AF18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5187D0202894EC890019AF18 /* NOBEMedDeviceAK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5187D01F2894EC890019AF18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5187D02C2894EC8B0019AF18 /* Preview Assets.xcassets in Resources */,
+				5187D0292894EC8B0019AF18 /* Assets.xcassets in Resources */,
+				726369DFA5E2D74C4D5CAD23 /* awsconfiguration.json in Resources */,
+				3068ED19177B9FF9D4B9AD2B /* amplifyconfiguration.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92106047B5C85115296BCBB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NOBEMedDeviceAK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F50C04C7757A1441410C538E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NOBEMedDeviceAK/Pods-NOBEMedDeviceAK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NOBEMedDeviceAK/Pods-NOBEMedDeviceAK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NOBEMedDeviceAK/Pods-NOBEMedDeviceAK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5187D01D2894EC890019AF18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5187D0272894EC890019AF18 /* ContentView.swift in Sources */,
+				5187D0252894EC890019AF18 /* NOBEMedDeviceAKApp.swift in Sources */,
+				51954F482894EF7400AE463E /* Backend.swift in Sources */,
+				8B29C039E2368FE68F60B925 /* AmplifyModels.swift in Sources */,
+				515DA6322894F9B60089D234 /* amplify/generated/models/ContainerData.swift in Sources */,
+				30C7262026FF52734A598A39 /* ContainerData+Schema.swift in Sources */,
+				20EF10DBD4D6DE563CFF377F /* ContainerData.swift in Sources */,
+				515DA6312894F9B60089D234 /* amplify/generated/models/ContainerData+Schema.swift in Sources */,
+				515DA6302894F9B60089D234 /* amplify/generated/models/AmplifyModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5187D02D2894EC8B0019AF18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5187D02E2894EC8B0019AF18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5187D0302894EC8B0019AF18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D8A8AB0AFD057C4137E51B /* Pods-NOBEMedDeviceAK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NOBEMedDeviceAK/Preview Content\"";
+				DEVELOPMENT_TEAM = C3CT42U4NN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NOBEMedDeviceAK/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = soup.NOBEMedDeviceAK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5187D0312894EC8B0019AF18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1030930A456CBBBEAB5B5936 /* Pods-NOBEMedDeviceAK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NOBEMedDeviceAK/Preview Content\"";
+				DEVELOPMENT_TEAM = C3CT42U4NN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NOBEMedDeviceAK/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = soup.NOBEMedDeviceAK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5187D01C2894EC890019AF18 /* Build configuration list for PBXProject "NOBEMedDeviceAK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5187D02D2894EC8B0019AF18 /* Debug */,
+				5187D02E2894EC8B0019AF18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5187D02F2894EC8B0019AF18 /* Build configuration list for PBXNativeTarget "NOBEMedDeviceAK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5187D0302894EC8B0019AF18 /* Debug */,
+				5187D0312894EC8B0019AF18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5187D0192894EC890019AF18 /* Project object */;
+}

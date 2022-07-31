@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "nobemeddeviceak",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authnobemeddeviceak95b1c6e3",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

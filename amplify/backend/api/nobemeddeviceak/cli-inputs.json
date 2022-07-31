@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "nobemeddeviceak",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/anshulkaushik/Documents/NOBEMedDeviceAK/amplify/backend/api/nobemeddeviceak/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authnobemeddeviceak95b1c6e3"
+    },
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    }
+  }
+}
